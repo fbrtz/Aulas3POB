@@ -3,7 +3,7 @@ Escreva um programa que solicite ao
 usuário dois números inteiros e exiba a soma deles.*/
 
 
-package exercicios1.problema1;  //declarando a pasta em que está o arquivo
+package exercicio1.problema1;  //declarando a pasta em que está o arquivo
 
 
 import java.util.Scanner;  //importando funções
