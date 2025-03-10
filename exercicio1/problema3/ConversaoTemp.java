@@ -5,7 +5,7 @@
 // Fórmula: F = (C × 9/5) + 32.
 
 
-package exercicios1.problema3;
+package exercicio1.problema3;
 
 
 import java.util.Scanner;
