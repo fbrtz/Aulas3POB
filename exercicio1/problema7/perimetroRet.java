@@ -8,7 +8,7 @@ Fórmulas:
 Perímetro = 2 × (base + altura).*/
 
 
- package exercicios1.problema7;
+ package exercicio1.problema7;
 
 
  import java.util.Scanner;
