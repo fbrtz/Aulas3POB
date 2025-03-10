@@ -6,7 +6,7 @@ Fórmula: D = sqrt((x2 - x1)² + (y2 - y1)²)*/
 
  
 
- package exercicios1.problema10;
+ package exercicio1.problema10;
 
 
  import java.util.Scanner;
