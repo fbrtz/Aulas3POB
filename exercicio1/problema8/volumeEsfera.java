@@ -6,7 +6,7 @@ Fórmula: V = (4/3) * π * raio³.
 Use π = 3.14159. */
 
 
-package exercicios1.problema8;
+package exercicio1.problema8;
 
 
 import java.util.Scanner;
