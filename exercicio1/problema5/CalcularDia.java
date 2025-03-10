@@ -3,7 +3,7 @@ Faça um programa que solicite ao usuário três notas
 (valores decimais) e exiba a média aritmética delas.*/
 
 
-package exercicios1.problema5;
+package exercicio1.problema5;
 
 
 import java.util.Scanner;
