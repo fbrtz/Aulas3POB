@@ -4,7 +4,7 @@ Escreva um programa que receba o salário bruto de um funcionário
  O programa deve calcular e exibir o salário líquido..*/
 
 
-package exercicios1.problema6;
+package exercicio1.problema6;
 
 
 import java.util.Scanner;
