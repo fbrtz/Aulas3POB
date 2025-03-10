@@ -4,7 +4,7 @@
 
  
 
- package exercicios1.problema9;
+ package exercicio1.problema9;
 
 
  import java.util.Scanner;
