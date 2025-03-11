@@ -34,6 +34,7 @@ public class ConverteNota {
                     break;
                 default:
                     conceito = ' ';
+                    System.out.println("Nota inválida.");
                     break;
             }
             System.out.println("O conceito do aluno é: "+conceito);
