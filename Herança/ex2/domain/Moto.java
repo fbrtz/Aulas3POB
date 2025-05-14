@@ -18,8 +18,7 @@ public class Moto extends Veiculo{
 
    @Override
    public void exibirDados(){
-        System.out.println("\n\nMarca: "+marca);
-        System.out.println("Ano: "+ano);
+        super.exibirDados();
         if (partidaEletrica){
             System.out.println("Partida Elétrica: Sim");
         }else{

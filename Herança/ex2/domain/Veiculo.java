@@ -22,5 +22,8 @@ public abstract class Veiculo {
         this.ano = ano;
     }
     
-    public abstract void exibirDados();
+    public void exibirDados(){
+        System.out.println("\n\nMarca: "+marca);
+        System.out.println("Ano: "+ano);
+    }
 }

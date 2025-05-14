@@ -18,8 +18,7 @@ public class Aluno extends Pessoa{
 
     @Override
     public void exibirDados(){
-        System.out.println("Nome: " +nome);
-        System.out.println("Idade: " +idade);
+        super.exibirDados();
         System.out.println("Curso: "+curso);
     }
 }

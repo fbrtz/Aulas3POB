@@ -31,6 +31,9 @@ public abstract class Pessoa{
         this.idade = idade;
     }
 
-    public abstract void exibirDados();
+    public void exibirDados(){
+        System.out.println("Nome: " +nome);
+        System.out.println("Idade: " +idade);
+    }
 }
 

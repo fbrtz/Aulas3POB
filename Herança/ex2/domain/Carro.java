@@ -18,8 +18,7 @@ public class Carro extends Veiculo {
 
     @Override
     public void exibirDados(){
-        System.out.println("\n\nMarca: "+marca);
-        System.out.println("Ano: "+ano);
+        super.exibirDados();
         System.out.println("Quantidade de portas: "+numPorta);
     }
 
