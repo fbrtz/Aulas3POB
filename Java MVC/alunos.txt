@@ -1,1 +1,2 @@
-2;Viviane;500
+1;Fabio;20
+2;Roberto;12
