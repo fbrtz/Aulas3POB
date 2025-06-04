@@ -22,5 +22,7 @@ public class FormaGeometricaView {
 
         IFormaGeometrica circulo = new Circulo(raio);
         controller.exibirResultados(circulo);
+
+        sc.close();
     }
 }
