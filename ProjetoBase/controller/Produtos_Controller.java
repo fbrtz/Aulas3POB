@@ -1,6 +1,6 @@
 package controller;
-import model.Produtos;
 import java.util.ArrayList;
+import model.Produtos;
 
 
 public class Produtos_Controller {
@@ -13,8 +13,17 @@ public class Produtos_Controller {
             
         produtos.add(produto);
     }
-    public void alterarProdutoPorID(int id, int nome, int qtd){
-        
+    public void alterarProdutoPorID(int id, String nome, Integer qtd){
+         produto = buscarProdutoPorID(id);
+
+         if (nome != null && !nome.equals("")){
+            produto.setNome(nome);
+         }
+
+         if (qtd != null){
+            produto.setQtd(qtd);
+         }
+
     }
     public void removerProdutoPorID(int id){
         produto = buscarProdutoPorID(id);
